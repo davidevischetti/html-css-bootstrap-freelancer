@@ -1,0 +1,14 @@
+/* REGOLE DI DEBUG STRUTTURA */
+
+.blue {
+    background-color: #00f;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+[class*="col-"] {
+    min-height: 10vh;
+    border: 3px solid #000;
+}
