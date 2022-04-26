@@ -97,6 +97,31 @@ h2 {
     border-radius: 15px;
 }
 
+/* STILE INFORMAZIONI */
+#about h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+#about .star i {
+    color: #fff;
+}
+
+#about .line {
+    background-color: #fff;
+}
+
+#about p {
+    color: #fff;
+    font-weight: 600;
+}
+
+#about .download {
+    width: fit-content;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
 
 
 
