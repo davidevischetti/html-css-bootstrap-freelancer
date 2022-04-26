@@ -1,7 +1,23 @@
+/* STILE COLORE SFONDO SEZIONI */
+
+.blue {
+    background-color: #2c3e50;
+}
+
+.green {
+    background-color: #1abc9c;
+}
+
+.light-blue {
+    background-color: #3a546d;
+} 
+
 /* STILE GENERALE TESTI */
 h2 {
     text-align: center;
     font-weight: 600;
+    font-size: 40px;
+    margin-top: 50px;
 }
 
 .star {
@@ -16,20 +32,7 @@ h2 {
     height: 4px;
     border-radius: 5px;
     margin: 30px 0;
-}
-
-/* STILE COLORE SFONDO SEZIONI */
-
-.blue {
-    background-color: #2c3e50;
-}
-
-.green {
-    background-color: #1abc9c;
-}
-
-.light-blue {
-    background-color: #3a546d;
+    background-color: #000;
 }
 
 /* STILE BARRA DI NAVIGAZIONE BT5 */
@@ -58,7 +61,6 @@ h2 {
 /* STILE HERO */
 #hero .hero-logo {
     margin-top: 10vh;
-    margin-bottom: 10px;
 }
 
 #hero h2 {
@@ -82,15 +84,6 @@ h2 {
 }
 
 /* STILE PORTFOLIO */
-#portfolio h2 {
-    font-size: 40px;
-    margin-top: 50px;
-}
-
-#portfolio .line {
-    background-color: #000;
-}
-
 #portfolio img {
     max-width: 100%;
     margin-bottom: 20px;
@@ -99,8 +92,6 @@ h2 {
 
 /* STILE INFORMAZIONI */
 #about h2 {
-    font-size: 40px;
-    margin-top: 50px;
     color: #fff;
 }
 
@@ -123,7 +114,20 @@ h2 {
     margin-bottom: 50px;
 }
 
+/* STILE CONTATTI */
+#contact .send {
+    background-color: #1abc9c;
+    border: none;
+    margin-bottom: 50px;
+}
 
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    padding-left: 0;
+    border-bottom: 1px solid #ced4da;
+    font-weight: 600;
+}
 
 
 
