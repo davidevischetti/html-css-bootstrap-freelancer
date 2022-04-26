@@ -1,3 +1,23 @@
+/* STILE GENERALE TESTI */
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.star {
+    text-align: center;
+}
+
+.star i {
+    font-size: 30px;
+}
+
+.line {
+    height: 4px;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
 /* STILE COLORE SFONDO SEZIONI */
 
 .blue {
@@ -41,27 +61,17 @@
     margin-bottom: 10px;
 }
 
-#hero h1 {
-    text-align: center;
+#hero h2 {
     color: #fff;
-    font-weight: 600;
     font-size: 60px;
 }
 
-#hero .star {
-    text-align: center;
-}
-
 #hero .star i {
-    font-size: 30px;
     color: #fff;
 }
 
 #hero .line {
-    height: 4px;
     background-color: #fff;
-    border-radius: 5px;
-    margin: 30px -20px;
 }
 
 #hero h4 {
@@ -69,6 +79,22 @@
     color: #fff;
     font-weight: 600;
     margin-bottom: 50px;
+}
+
+/* STILE PORTFOLIO */
+#portfolio h2 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#portfolio .line {
+    background-color: #000;
+}
+
+#portfolio img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 
