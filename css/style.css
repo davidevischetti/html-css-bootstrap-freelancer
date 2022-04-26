@@ -13,6 +13,10 @@
 }
 
 /* STILE BARRA DI NAVIGAZIONE BT5 */
+#nav-bar {
+    padding: 10px;
+}
+
 .logo {
     font-weight: 800;
     font-size: 20px;
@@ -30,6 +34,43 @@
 .fa-bars {
     color: #fff;
 }
+
+/* STILE HERO */
+#hero .hero-logo {
+    margin-top: 10vh;
+    margin-bottom: 10px;
+}
+
+#hero h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#hero .star {
+    text-align: center;
+}
+
+#hero .star i {
+    font-size: 30px;
+    color: #fff;
+}
+
+#hero .line {
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 30px -20px;
+}
+
+#hero h4 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
 
 
 
